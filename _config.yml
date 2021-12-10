@@ -17,6 +17,7 @@ navbar-links:
 #  About Me: "aboutme"
   Abstract: "abstract"
   Analyses:
+  Methods:
   About us: "aboutme"
   Resources:
      - Quotebank: https://dl.acm.org/doi/10.1145/3437963.3441760
