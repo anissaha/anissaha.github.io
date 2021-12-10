@@ -17,7 +17,7 @@ navbar-links:
   Abstract: "abstract"
   Analyses: "analyses"
   Methods: "methods"
-  About us: "aboutme"
+  About us: "aboutus"
   Resources:
      - Quotebank: https://dl.acm.org/doi/10.1145/3437963.3441760
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
