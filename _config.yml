@@ -14,7 +14,9 @@ author: Anissa Hammi
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Dataset: "quotebank"
+  Dataset: 
+     - Quotebank: "quotebank"
+     - Speakers dataset: "speakers"
   Analyses: "analyses"
   Methods: "methods"
   About us: "aboutus"
