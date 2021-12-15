@@ -14,8 +14,8 @@ author: Anissa Hammi
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Datastory: "analyses"
   Dataset: "quotebank"
-  Analyses: "analyses"
   Methods: "methods"
   About us: "aboutus"
   Resources:
