@@ -7,6 +7,10 @@ cover-img: "assets/img/manif_crop.jpg"
 
 ## Keywords extraction
 We ended up with this list of keywords :
+![keyword cloud](/assets/img/key_word-wordcloud.png)
+<img src="/assets/img/key_word-wordcloud.png" alt="keyword cloud" width="200"/>
+<img src="/assets/img/key_word-wordcloud.png" alt="keyword cloud" width="1000"/>
+<img src="/assets/img/key_word-wordcloud.png" alt="keyword cloud" width="10000"/>
 <img src="/assets/img/key_word-wordcloud.png" alt="keyword cloud" width="700"/>
 
 
