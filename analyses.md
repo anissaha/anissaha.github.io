@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Analyses
+title: Data Story
 subtitle: A deep dive into the mediatic place of climate change
 cover-img: ["assets/img/manif.jpg","assets/img/manif2.jpg"]
 ---
