@@ -7,7 +7,7 @@ cover-img: "assets/img/manif_crop.jpg"
 
 ## Keywords extraction
 We ended up with this list of keywords :
-![keywords](/assets/images/key_word-wordcloud.png)
+![keywords](/assets/img/key_word-wordcloud.png)
 
 
 ## Temporal evolution
