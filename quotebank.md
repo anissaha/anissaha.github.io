@@ -7,7 +7,7 @@ cover-img: "assets/img/data.jpg"
 
 _“Quotations will tell the full measure of meaning, if you have enough of them.”_  
 _—James Murray_
-
+<div style="text-align: justify">
 ### Quotebank dataset 
 [Quotebank](https://dl.acm.org/doi/10.1145/3437963.3441760) is a corpus of quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2015 and 2020. The quotations have been extracted with _Quobert_, a machine learning framework used for extracting an attributing quotations from a corpus of news articles.
 
@@ -23,4 +23,4 @@ These two dataset were used to train and test the logistic regression model used
 
 
 All our dataset can be found [here](https://drive.google.com/drive/folders/1kafZtuinbhqQUU2syhdQeBHnJ9_C5E6E?usp=sharing).
-
+<\div>
