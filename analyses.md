@@ -5,8 +5,6 @@ subtitle: A deep dive into the mediatic place of climate change
 cover-img: "assets/img/manif_crop.jpg"
 ---
 
-# Data Analyses
-
 ## Keywords extraction
 image keywords
 
