@@ -7,7 +7,7 @@ cover-img: "assets/img/manif_crop.jpg"
 
 ## Keywords extraction
 We ended up with this list of keywords :  
-<img src="drawing.jpg" alt="drawing" width="700">
+<img src="/assets/img/key_word-wordcloud.png" alt="keyword cloud" width="700">
 
 ## Temporal evolution
 Plot (year)
