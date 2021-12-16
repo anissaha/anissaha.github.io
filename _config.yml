@@ -14,7 +14,7 @@ author: Anissa Hammi | Maria Guerraoui | Alicia Milloz | Virginie Garnier
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Datastory: "analyses"
+  Datastory: "datastory"
   Dataset: "quotebank"
   Methods: "methods"
   About us: "about"
