@@ -59,10 +59,13 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
       <p>(top speakers, top quotes)</p>
   </div>
     
-  <h1>Classification</h1>
+  <h1>Tell me who you are and I will tell you if you feel concerned about climate change</h1>
   <div style="text-align: justify">
-    <p>
+    <p>We then tried to predict whether a person would be inclined to talk about climate in the press based on their profile. Taking the 20 most frequent labels
+      in each characteristic as predictors, we infered with a logistic regression a binary value, either climate or not, on each speaker and compared it to the reality, 
+      i.e. whether they were present in the climate related speakers dataset. This gave us the following Confusion Matrix :
     </p>
+    <img src="/assets/img/classification_log.PNG" alt="confusion matrix for the logistic regression" class="center">
   </div>
     
   <h1>General feeling about climate change is (surprisingly) positive</h1>
