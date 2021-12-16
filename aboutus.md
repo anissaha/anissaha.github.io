@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 subtitle: The amazing Avada Kedavra team
+cover-img: assets/img/panda.jpg
 ---
 
 ## Alicia Milloz
