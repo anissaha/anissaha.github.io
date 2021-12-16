@@ -2,8 +2,9 @@
 layout: page
 title: Data Story
 subtitle: A deep dive into the mediatic place of climate change
-cover-img: "assets/img/manif_crop.jpg"
+cover-img: "assets/img/no_planet_B_crop.jpg"
 ---
+idea: put une phrase qui résume le résultat comme titre (commme un paper)
 
 ## Keywords extraction
 We ended up with this list of keywords :  
