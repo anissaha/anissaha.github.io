@@ -66,6 +66,14 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
       i.e. whether they were present in the climate related speakers dataset. This gave us the following Confusion Matrix :
     </p>
     <img src="/assets/img/classification_log.PNG" alt="confusion matrix for the logistic regression" class="center">
+    <p> Accuracy blabla</p>
+    <p>As we can observe above, the accuracy is good as it is close to one, but not as good as for the baseline. Here we have an accuracy of 86% wheras for the 
+      baseline we had 98,3%. For the positive case we have better results here than for the baseline, but it is still close to zero. Only 7,2% of our climate 
+      positive classification are correctly classified. The recall here is way better than above, suggesting we have a higher positive climate classification that 
+      our model recognize as such. Overall, we have a score of 0.128 compare to 0.002 for the baseline, this means our model does not predict well our climate 
+      speaking people, but our model improved. For the negative case, we observe high precision, recall and score values. Meaning again, the climate negative speaker 
+      were classified with a good accuracy. Our model is performing better for the recall, thus a higher rate of climate positive classification are well classified, 
+      but a small fraction of positive classified are actually correctly classified.</p>
   </div>
     
   <h1>General feeling about climate change is (surprisingly) positive</h1>
@@ -94,7 +102,7 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
     <img src="/assets/img/politic_sentiment.PNG" alt="sentiment analyses for political parties" class="center">
     <p>We observe that in both negative and positive case that the democratic party people have slightly higher rates. But the median are very close to each other 
       and the boxplots are overlapping. To determine if the means are significantly different, we performed two t-tests on, respectively, positive and negative rates : </p>
-    <p style="font-size:10px"><samp>Ttest_indResult(statistic=-5.872865752320066, pvalue=4.308443966327444e-09)<br>
+    <p style="font-size:20px"><samp>Ttest_indResult(statistic=-5.872865752320066, pvalue=4.308443966327444e-09)<br>
       Ttest_indResult(statistic=-18.86696547764224, pvalue=3.852534994433051e-79)</samp></p>
     <p>According to pvalues that are both very small, we can conclude that the two means are significantly different and thus there is a difference between the two 
       populations.Consequently, we can observe the democratic party people have higher rates and this could be explained by a higher investement than the republicans.</p> 
