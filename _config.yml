@@ -17,7 +17,7 @@ navbar-links:
   Datastory: "analyses"
   Dataset: "quotebank"
   Methods: "methods"
-  About us: "aboutus"
+  About us: "about"
   Resources:
      - Quotebank: https://dl.acm.org/doi/10.1145/3437963.3441760
      - Logo pic: https://www.freepik.com/vectors/abstract
