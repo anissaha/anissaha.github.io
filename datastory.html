@@ -107,7 +107,6 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
       last <a href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/">IPCC report</a>: "<i>Even the solutions that we have considered big and bold are 
       nowhere near the scale of the actual problem that climate change presents to us</i>" (Alexandra Ocasio-Cortez). It seems like the sentiment of urgency 
       communicated grows over the years.</p>
-    <p style="background-color:tomato;">normalized graphs ?</p>
   </div>
     
   <h1>The general feeling about climate change is (surprisingly) positive</h1>
@@ -150,14 +149,9 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
   
   <h1>Tell me who you are and I will tell you if you feel concerned about climate change</h1>
   <div style="text-align: justify">
-    <p>As we observed that some characterstics seemed to be based on the features extracted from the dataframe speakers, we tried to create a prediction model based on 
-      logistic regression.</p>
-      <p style="font-size:15px">Methods : First, we separated the dataset in a train and a test subset. We then visualized the baseline model in order to determine which 
-      modfications we could apply on our train set. Finally, we did some hypertunning to determine the best prediction model.</p>
-    <p>
-      We tried to predict whether a person would be inclined to talk about climate in the press based on their profile. Taking the 20 most frequent labels
-      in each characteristic as predictors, we infered with a logistic regression a binary value, either climate or not, on each speaker and compared it to the reality, 
-      i.e. whether they were present in the climate related speakers dataset. The final model is the following :
-    </p>
+    <p>As we observed that some characterstics are over-represented in the climate speakers, we tried to create a prediction model based on logistic regression to
+      infer the propensity of a person to talk about climate in the press based on their profile. This model will tell you, based on your occupation, religion, ethnic 
+      group, academic degree, gender, political party, nationality and age whether you are inclined to talk about climate in the press or not. </p>
+    <img src="/assets/img/classification_model.png" alt="classification parameters" class="center">
   </div>
 </body>
