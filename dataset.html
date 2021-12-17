@@ -13,15 +13,22 @@ cover-img: "assets/img/data.jpg"
   <h1>Quotebank dataset</h1>
   <div style="text-align: justify">
     <p><a href="https://dl.acm.org/doi/10.1145/3437963.3441760">Quotebank</a> is a corpus of quotations attributed to the speakers who uttered them, extracted from 
-      162 million English news articles published between 2015 and 2020. The quotations have been extracted with _Quobert_, a machine learning framework used for 
+      162 million English news articles published between 2015 and 2020. The quotations have been extracted with <i>Quobert</i>, a machine learning framework used for 
       extracting an attributing quotations from a corpus of news articles.</p>
   </div>
   
   <h1>Clean and filtered Quotebank Climate-related dataset</h1>
   <div style="text-align: justify">
-    <p>In this project we used a subset of the Quotebank dataset, a corpus of quotations that we identified as climate-change-related, extracted from the entire 
-      Quotebank dataset. It results from the cleaning and filtering of the Quotebank dataset. The filtering to obtain climate-related quotes was done using a list 
-      of keywords, that was extracted using logistic regression from two given test sets (see below).</p>
+    <p>We used a subset of the Quotebank dataset, a corpus of quotations that we identified as climate-change-related, extracted from the entire 
+      Quotebank dataset. It results from the cleaning and filtering of Quotebank. The filtering to obtain climate-related quotes was done using a list 
+      of keywords, that was extracted using logistic regression from two given test sets (see below). The filtered datasets are referred as "clean_quotes-<i>year</i>.bz2".</p>
+  </div>
+  
+  <h1>Logistic regression training datasets</h1>
+  <div style="text-align: justify">
+    <p>"train1.tsv" and "Wiki_train.tsv" are the two datasets used to train and test the logistic regression model used to classify our quotes as climate related or 
+      not. They were found on the article from <a href="https://arxiv.org/abs/2012.00483">Varini et al.</a> These datasets are composed of sentences labeled as 
+      climate related or not. They were obtained using Active Learning on previously existing datasets.</p>
   </div>
   
   <h1>Speaker dataset</h1>
@@ -30,15 +37,9 @@ cover-img: "assets/img/data.jpg"
       such as nationality, gender, education, political party, date of birth, ethinc group and religion. We also enriched this data with a column containing 
       boolean values describing whether this person talks about climate or not. The first value is True if any quote from this speaker is found in the Climate related 
       Dataset. For futherer analyses, we kept the 20 most represented features for each column and turned them into one-hot columns. This enabled us to handle the 
-      categorical data.</p>
+      categorical data (one_hot.bz2).</p>
   </div>
-  
-  <h1>Logistic regression training datasets</h1>
-  <div style="text-align: justify">
-    <p>Theses two datasets are used to train and test the logistic regression model used to classify our quotes as climate related or not. They were found on the 
-      article from <a href="https://arxiv.org/abs/2012.00483">Varini et al.</a> These datasets are composed of sentences labeled as climate related or not. They 
-      were obtained using Active Learning on previously existing datasets.</p>
-  </div>
+ 
   <div style="text-align: justify">
     <p>All our dataset can be found <a href="https://drive.google.com/drive/folders/1bDHuU1FBux-SZB83-lkrha-av1f5QAlu?usp=sharing">here</a>
   </div>
