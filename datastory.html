@@ -62,23 +62,6 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
     <p style="background-color:tomato;">normalized graphs ?</p>
   </div>
     
-  <h1>Tell me who you are and I will tell you if you feel concerned about climate change</h1>
-  <div style="text-align: justify">
-    <p>We then tried to predict whether a person would be inclined to talk about climate in the press based on their profile. Taking the 20 most frequent labels
-      in each characteristic as predictors, we infered with a logistic regression a binary value, either climate or not, on each speaker and compared it to the reality, 
-      i.e. whether they were present in the climate related speakers dataset. This gave us the following Confusion Matrix :
-    </p>
-    <img src="/assets/img/classification_log.PNG" alt="confusion matrix for the logistic regression" class="center">
-    <p style="background-color:tomato;">Accuracy blabla</p>
-    <p>As we can observe above, the accuracy is good as it is close to one, but not as good as for the baseline. Here we have an accuracy of 86% wheras for the 
-      baseline we had 98,3%. For the positive case we have better results here than for the baseline, but it is still close to zero. Only 7,2% of our climate 
-      positive classification are correctly classified. The recall here is way better than above, suggesting we have a higher positive climate classification that 
-      our model recognize as such. Overall, we have a score of 0.128 compare to 0.002 for the baseline, this means our model does not predict well our climate 
-      speaking people, but our model improved. For the negative case, we observe high precision, recall and score values. Meaning again, the climate negative speaker 
-      were classified with a good accuracy. Our model is performing better for the recall, thus a higher rate of climate positive classification are well classified, 
-      but a small fraction of positive classified are actually correctly classified.</p>
-  </div>
-    
   <h1>The general feeling about climate change is (surprisingly) positive</h1>
   <div style="text-align: justify">
     <p>Climate change is a very polarizing subject and we wanted to investigate the general feeling toward it in the media. To do this we performed the Vader 
@@ -111,5 +94,18 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
       Ttest_indResult(statistic=-18.86696547764224, pvalue=3.852534994433051e-79)</samp></p>
     <p>According to pvalues that are both very small, we can conclude that the two means are significantly different and thus there is a difference between the two 
       populations.Consequently, we can observe the democratic party people have higher rates and this could be explained by a higher investement than the republicans.</p> 
+  </div>
+  
+  <h1>Tell me who you are and I will tell you if you feel concerned about climate change</h1>
+  <div style="text-align: justify">
+    <p>As we observed that some characterstics seemed to be based on the features extracted from the dataframe speakers, we tried to create a prediction model based on 
+      logistic regression.</p>
+      <p style="font-size:15px">Methods : First, we separated the dataset in a train and a test subset. We then visualized the baseline model in order to determine which 
+      modfications we could apply on our train set. Finally, we did some hypertunning to determine the best prediction model.</p>
+    <p>
+      We tried to predict whether a person would be inclined to talk about climate in the press based on their profile. Taking the 20 most frequent labels
+      in each characteristic as predictors, we infered with a logistic regression a binary value, either climate or not, on each speaker and compared it to the reality, 
+      i.e. whether they were present in the climate related speakers dataset. The final model is the following :
+    </p>
   </div>
 </body>
