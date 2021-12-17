@@ -5,12 +5,13 @@ subtitle: A deep dive into the mediatic place of climate change
 cover-img: "assets/img/no_planet_B_crop.jpg"
 ---
 <body>
-  <h1>Magic Words for Climate Change</h1>
+  <h1>The Magic Words of Climate Change</h1>
   <div style="text-align: justify">
     <p>We extracted words usually used in speeches about climate from external sources (cf. <a href="https://anissaha.github.io/quotebank/">Dataset</a>) and ended up 
       with this list of keywords :</p>
     <img src="/assets/img/Capture.PNG" alt="keyword cloud" class="center">
     <p>We then used this list to filter the Quotebank dataset and extract from it the quotations related to climate.</p>
+    <p style="background-color:tomato;"> chiffre sur la taille du dataset ?</p>
   </div>
   
   <h1>We talk more and more about climate</h1>
@@ -38,7 +39,8 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
     </p>
     <p>This plot also displays other interesting results. First of all, we can see an increase of the number of climate-related quotes in 2015. Especially, we can see 
       a spike in December, corresponding to the <a href="https://unfccc.int/fr/processus-et-reunions/l-accord-de-paris/l-accord-de-paris">The Paris Agreement</a>. 
-      We investigated the events that took place during the other big spikes we can see on the plot : May 2017 and September 2019. Indeed, 
+      We investigated the events that took place during the other big spikes we can see on the plot : </p>
+    <p style="background-color:tomato;">May 2017 and September 2019. Indeed,</p> 
   </div>
     
   <h1>Politicians are (too) chatty</h1>
@@ -56,7 +58,8 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
     <p>We can observe that the top 5 occupations are similar which means that thy are the type of people that are the most present in the press meaning that it was  
       expected to find them in the top 5 of the climate speakers.
     </p>
-      <p>(top speakers, top quotes)</p>
+    <p style="background-color:tomato;">top speakers, top quotes</p>
+    <p style="background-color:tomato;">normalized graphs ?</p>
   </div>
     
   <h1>Tell me who you are and I will tell you if you feel concerned about climate change</h1>
@@ -66,7 +69,7 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
       i.e. whether they were present in the climate related speakers dataset. This gave us the following Confusion Matrix :
     </p>
     <img src="/assets/img/classification_log.PNG" alt="confusion matrix for the logistic regression" class="center">
-    <p> Accuracy blabla</p>
+    <p style="background-color:tomato;">Accuracy blabla</p>
     <p>As we can observe above, the accuracy is good as it is close to one, but not as good as for the baseline. Here we have an accuracy of 86% wheras for the 
       baseline we had 98,3%. For the positive case we have better results here than for the baseline, but it is still close to zero. Only 7,2% of our climate 
       positive classification are correctly classified. The recall here is way better than above, suggesting we have a higher positive climate classification that 
@@ -76,13 +79,13 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
       but a small fraction of positive classified are actually correctly classified.</p>
   </div>
     
-  <h1>General feeling about climate change is (surprisingly) positive</h1>
+  <h1>The general feeling about climate change is (surprisingly) positive</h1>
   <div style="text-align: justify">
     <p>Climate change is a very polarizing subject and we wanted to investigate the general feeling toward it in the media. To do this we performed the Vader 
-      sentiment analysis (cf. <a href="https://anissaha.github.io/methods/">Methods</a>) on the climate-related quotations. This gave us the following results : </p>
+      Sentiment Analysis (cf. <a href="https://anissaha.github.io/methods/">Methods</a>) on the climate-related quotations. This gave us the following results : </p>
     <img src="/assets/img/sentiment.png" alt="sentiment analyses" class="center">
     <p> The plots above are showing the proportion of positive and negative quotes among all the climate-related quotes for each year. We can observe that the general 
-      feeling is overall more positive then negative. We also see more extreme value for the negative feeling in 2020 than in 2015. This could be due to the climate 
+      feeling is overall more positive than negative. We also see more extreme value for the negative feeling in 2020 than in 2015. This could be due to the climate 
       emergency that is taking more and more space in people's mind and, consequently, in the media. On the contrary, the positive rate has more extreme values in 2015 
       than in 2020.</p>
     <p>In order to check if this sentiment analysis makes sense we extracted the words with the highest frequency in the quotations with the highest positive or 
@@ -91,8 +94,9 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
   </div>
   <img src="/assets/img/sentiment_cloud_positive.png" alt="positive words cloud" class="left" width="350" height="175">
   <img src="/assets/img/sentiment_cloud_negative.jpeg" alt="negative words cloud" class="right" width="350" height="175">
+  <p style="background-color:tomato;">conclusion about this</p>
        
-  <h2>Democrates talk about climate with more emotions than Republicans</h2>
+  <h2>Democrates are more emotional about climate</h2>
   <div style="text-align: justify">
     <p>While looking at the main profiles that talk about climate in the section above, we realised that the two major political parties in the US are the two most 
       represented in the climate-related mediatic speech. As they are opponents of each other and knowing the propensity of the Republicans to doubt about the climate
@@ -100,6 +104,7 @@ cover-img: "assets/img/no_planet_B_crop.jpg"
       (<a href="https://www.thechicagocouncil.org/research/public-opinion-survey/2021-chicago-council-survey">2021 Chicago Council Survey</a>). We have then looked 
       at the general feeling in the quotes from Republicans versus Democrates : </p>
     <img src="/assets/img/politic_sentiment.PNG" alt="sentiment analyses for political parties" class="center">
+    <p style="background-color:tomato;">description of the plot</p>
     <p>We observe that in both negative and positive case that the democratic party people have slightly higher rates. But the median are very close to each other 
       and the boxplots are overlapping. To determine if the means are significantly different, we performed two t-tests on, respectively, positive and negative rates : </p>
     <p style="font-size:15px"><samp>Ttest_indResult(statistic=-5.872865752320066, pvalue=4.308443966327444e-09)<br>
